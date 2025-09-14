@@ -1,0 +1,18 @@
+Aim: - Introduction to structured threat modeling. - Apply the CIA triad and STRIDE/DREAD frameworks. - Develop a Python tool to simulate attack tree scoring.
+
+Tasks:
+
+Analyze a fictional smart home IoT system (e.g., with devices like a smart lock, thermostat, and voice assistant).
+Identify and document key assets, attacker profiles (internal, external), trust boundaries, entry/exit points, and data flows.
+Construct an attack tree using a graphing tool (e.g., Graphviz or draw.io). Annotate each node with potential impact and likelihood.
+Implement a Python script that ingests a JSON or YAML representation of threats and outputs risk rankings based on STRIDE or DREAD
+Extend the attack tree model to include Bayesian inference or Monte Carlo simulations for dynamic threat probability estimation (for grade 4 and 5).
+ 
+
+Deliverables:
+
+Executable Python script(s).
+A lab report containing:
+A threat model diagram (digital format);
+A working Python-based risk scoring tool with example inputs/outputs examples;
+Reflections on mitigation priorities and proposed controls (technical and policy-based).
